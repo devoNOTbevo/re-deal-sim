@@ -8,10 +8,12 @@
     "@testing-library/user-event": "^7.2.1",
     "@types/jest": "^24.9.1",
     "@types/node": "^12.12.34",
-    "@types/react": "^16.9.30",
-    "@types/react-dom": "^16.9.5",
+    "@types/react": "^16.9.32",
+    "@types/react-dom": "^16.9.6",
+    "little-state-machine": "^2.13.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-hook-form": "^5.2.0",
     "react-scripts": "3.4.1",
     "typescript": "^3.8.3"
   },
@@ -35,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-typescript": "^7.9.4"
   }
 }
